@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruise Masters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--############### NavBar ############### -->
+    <header>
+        <div class="logo">Cruise Masters</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#cruises">Cruises</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--############### HomePage ############### -->
+    <section id="home">
+        <video autoplay muted loop>
+            <source src="background2.mp4" type="video/mp4">
+        </video>
+        <div class="video-content">
+            <h1>Explore The Natural Beauty Of River Volta</h1>
+            <p>Book your dream cruise with us today!</p>
+            <a href="#cruises">View Cruises</a>
+        </div>
+    </section>
+
+
+    <!--############### About ############### -->
+    <section id="about">
+        <div class="about">
+            <h1>About Us</h1>
+            <h3>Welcome to Cruise Masters</h3>
+            <p>
+                Embark on an unforgettable journey with us as we sail the pristine waters,
+                exploring hidden coves and enchanting islands. Feel the gentle breeze on your 
+                face and immerse yourself in the awe-inspiring beauty of nature.  
+                Our expert crew is dedicated to providing you with luxurious and personalized  
+                experience link no other.
+            </p>
+            <h3>Meet Our Incredible team </h3>
+            <p>
+                At our Cruising Boat Company, we are proud to have a team of passionate individuals 
+                who share a deep love for the sea and a commitment to providing exceptional service. 
+                From our experienced captains who navigate the waters with skill and precision to our 
+                friendly crew members who ensure your comfort and enjoyment, each team member is dedicated 
+                to creating unforgettable memories for every guest.
+            </p>
+        </div>
+    </section>
+
+
+    <!--############### Cruises ############### -->
+    <section id="cruises">
+        <div class="cruises-header">Our Cruises</div>
+        <div class="cruises-images">
+    
+          <div class="image">
+            <img src="cruise1.jpg" class="img1" alt="">
+            <button id="not-available">Book Now</button>
+          </div>
+          <div class="image">
+            <img src="cruise2.jpeg" alt="">
+            <button>Book Now</button>
+          </div>
+          <div class="image">
+            <img src="cruise3.jpg" class="img1" alt="">
+            <button>Book Now</button>
+          </div>
+          <div class="image">
+            <img src="cruise4.jpg" alt="">
+            <button>Book Now</button>
+          </div>
+          <div class="image">
+            <img src="cruisers-279.jpg" class="img1" alt="">
+            <button>Book Now</button>
+          </div>
+          <div class="image">
+            <img src="CruisersYachts-Image.jpg"class="img1"  alt="">
+            <button>Book Now</button>
+          </div>
+        </div>
+        
+    </section>
+
+
+    <!--############### Contact ############### -->
+    <section id="contact">
+        <div class="contact-container">
+          <h2>Contact Us</h2>
+        
+         <form action="" >
+          <label for="full name"><input type="text" placeholder="Enter Your Full Name" required id="name"></label><br>
+          <label for="email"><input type="email" placeholder="Enter Your Email" required id="email"></label><br>
+          <label for="phone number"><input type="tel" placeholder="Enter Your Phone Number eg.+233 123 456 789" required id="number"></label><br>
+          <textarea placeholder="*Message" required id="message"></textarea><br>
+          <button id="btn">Submit</button>
+         </form>
+        </div>
+    </section>
+
+    <!--############### Footer ############### -->
+    <footer>
+        <p>&copy; 2024 Cruise Masters. All rights reserved.</p>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
